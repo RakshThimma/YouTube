@@ -1,6 +1,6 @@
 // const MY_API_KEY = "AIzaSyCHAPy3ngyy-rxfm-kj4APio_PEWsCmpvE"
 
-const MY_API_KEY ="AIzaSyBZjosWK7SMkZCXcgi-kfDcp__nNTjI9xA"
+const MY_API_KEY =process.env.REACT_APP_GOOGLE_YOUTUBE_API_KEY
 
 export const YOUTUBE_VIDEOS_URL = "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&regionCode=IN&maxResults=9&key=" + MY_API_KEY
 

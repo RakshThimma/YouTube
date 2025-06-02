@@ -5,3 +5,4 @@ node_modules/
 .parcelrc
 postcss.config.js
 parcel-bundle-reports/
+.env
