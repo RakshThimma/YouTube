@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { CloseMenu } from "../utils/MenuSlice";
-import { useSearchParams } from "react-router";
+import { useSearchParams } from "react-router-dom";
 import CommentsConatiner from "./CommentsConatiner";
 import LiveChat from "./LiveChat";
 import Suggestions from "./Suggestions";
