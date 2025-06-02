@@ -84,7 +84,7 @@ const Header = () => {
             </svg>
           </button>
         </div>
-        { showSuggestions && <div className="fixed top-12 rounded-xl shadow-xl border border-gray-100 left-[406px] m-1 p-1 bg-white w-[30rem]">
+        { showSuggestions && <div className="fixed top-12 rounded-xl z-50 shadow-xl border border-gray-100 left-[406px] m-1 p-1 bg-white w-[30rem]">
           <ul>
             {
               suggestions.map((s) =>  <li key={s} className="px-3 py-1 my-1 cursor-default hover:bg-gray-200 text-sm" onMouseDown={() => setSearchQuery(s)}><Link to={"/search?q="+encodeURIComponent(s)}>{s}</Link></li>)
